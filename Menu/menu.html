@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title></title>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link rel="stylesheet" type="text/css" href="menu.css">
+  <title>Menu com Microinterações</title>
+  <body>
+      <div class="container">
+        <input type="radio" name="menu" id="radio-0" checked/>
+        <label for="radio-0"><i data-feather="home"></i></label>
+
+        <input type="radio"name="menu"id="radio-1"/>
+        <label for="radio-1"><i data-feather="award"></i></label>
+
+        <input type="radio"name="menu"id="radio-2"/>
+        <label for="radio-2"><i data-feather="briefcase"></i></label>
+
+        <input type="radio"name="menu"id="radio-3"/>
+        <label for="radio-3"><i data-feather="book-open"></i></label>
+
+        <div class="selected-element">
+            <div class="circle"></div>
+        </div>
+      </div>
+
+    <script>
+      feather.replace()
+    </script>
+  </body>
+</html>
